@@ -34,6 +34,11 @@ div{
 section{
     display: flex;
 }
+image{
+
+    height: 50px;
+    width: 50px;
+}
 
 </style>
 

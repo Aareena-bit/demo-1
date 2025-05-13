@@ -1,9 +1,7 @@
 <script>
-let cardData = {
-    title: "My Card",
-    image: "https://picsum.photos/id/237/200/300",
-    info:"This is the card information.",
-};
+let {cardData} = $props();
+let user = cardData.user;
+let info = cardData.info;
 </script>
 
 <div>
@@ -34,7 +32,7 @@ div{
 section{
     display: flex;
 }
-image{
+img{
 
     height: 50px;
     width: 50px;

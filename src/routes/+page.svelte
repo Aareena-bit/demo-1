@@ -1,4 +1,3 @@
-
 <script>
 
     import Footer from "$lib/Footer.svelte";
@@ -21,13 +20,6 @@
 
     ];
 
-    let cards = [
-      title: "My Card",
-      user {
-
-      }
-
-    ]
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 let selected = $state(colors[0]);
 

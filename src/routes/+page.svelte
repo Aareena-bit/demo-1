@@ -4,7 +4,7 @@
   import UserDisplay from "$lib/UserDisplay.svelte";
     import Card from "$lib/Card.svelte";
     import Quote from "$lib/Quote.svelte";
-    import Info from "";
+   
 
     
       let quote = [{
@@ -31,26 +31,12 @@ let selected = $state(colors[0]);
 
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-{#each quote as quotes}
-<Quote {quotes} />
-{/each}
+<img src={UserDisplay} alt="Piscum">
 
-<div>
-{#each colors as color}
-<button 
-style="background-color: red;"
-aria-label="red"
-aria-current={selected === 'red'}
-onclick={() => selected = 'red'}>
 
-</button>
-{/each}
+<!-- <Card/> -->
 
-</div>
-
-<Card />
-
-<Card />
+<!-- <Card /> -->
 
 <UserDisplay />
 

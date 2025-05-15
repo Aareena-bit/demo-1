@@ -1,5 +1,5 @@
 <script>
-import SiteHeader from "./SiteHeader.svelte";
+import Navigation from "./Navigation.svelte";
 </script>
 
 

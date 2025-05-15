@@ -14,7 +14,7 @@
     citeUrl: "https://www.huxley.net/bnw/four.html",
       },
       {
-      quoteText: "jhgudsyftu",
+      quoteText: "Happy",
       author: "Riley Manson",
       },
 
